@@ -1,0 +1,119 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.login {
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  width: 250px;
+}
+
+.login__inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__buttons {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+}
+
+.login__button {
+  margin-top: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+  border: 1px solid black;
+  width: 70px;
+  height: 25px;
+  transform: translateX(-25px);
+  transition: all 0.3s ease-in-out;
+}
+
+.login__button:hover{
+  scale: calc(1.05);
+}
+
+.login__title {
+  text-align: center;
+}
+
+.login__box {
+  position: relative;
+
+}
+
+.login__input {
+  width: 200px;
+  padding: 8px;
+  margin: 6px 0;
+}
+
+.ri-error-circle-line {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.login_forgot a {
+  text-decoration: none;
+  font-size: small;
+}
+
+.login_forgot {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+
+}
+
+.login__home {
+  display: flex;
+  justify-content: end;
+
+}
+
+.forgotten {
+
+  width: 100%;
+}
+
+.login__content {
+  height: 175px;
+}
+
+.login__home a {
+  font-size: x-small;
+}
+
+.login {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: 1px solid #000;
+}
+
+.poimter {
+  cursor: pointer;
+}
+
+/* .bg-bottom {
+  background-color: rgb(221, 219, 219);
+} */
+
